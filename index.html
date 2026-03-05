@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>心灵重建 — EMDR · CBT 融合疗愈游戏</title>
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <!-- ── 应用根节点 ── -->
+  <div id="app">
+
+    <!-- 进度条（顶部） -->
+    <div id="progress-bar-container" class="hidden">
+      <div id="progress-bar"></div>
+      <span id="progress-label"></span>
+    </div>
+
+    <!-- 屏幕容器（各模块动态注入此处） -->
+    <main id="screen-container"></main>
+
+    <!-- 底部导航 -->
+    <footer id="nav-footer" class="hidden">
+      <button id="btn-back"  class="nav-btn secondary">← 上一步</button>
+      <button id="btn-next"  class="nav-btn primary">继续 →</button>
+    </footer>
+
+    <!-- 安全出口（随时可用） -->
+    <button id="safe-exit-btn" title="安全出口：停止并接地气" class="hidden">🛡 安全出口</button>
+
+    <!-- 紧急接地气浮层 -->
+    <div id="grounding-overlay" class="overlay hidden">
+      <div class="overlay-box">
+        <h2>🌿 接地气练习</h2>
+        <p id="grounding-step-text"></p>
+        <div id="grounding-breath-circle"></div>
+        <button id="grounding-next-btn" class="nav-btn primary">下一步</button>
+        <button id="grounding-close-btn" class="nav-btn secondary">返回游戏</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 工具脚本 -->
+  <script src="src/utils/state.js"></script>
+  <script src="src/utils/audio.js"></script>
+
+  <!-- 各模块 -->
+  <script src="src/modules/welcome.js"></script>
+  <script src="src/modules/safety.js"></script>
+  <script src="src/modules/targetIdentification.js"></script>
+  <script src="src/modules/cogBiasAssessment.js"></script>
+  <script src="src/modules/cbtRestructuring.js"></script>
+  <script src="src/modules/emdrDesensitization.js"></script>
+  <script src="src/modules/installation.js"></script>
+  <script src="src/modules/grounding.js"></script>
+  <script src="src/modules/summary.js"></script>
+
+  <!-- 主控制器 -->
+  <script src="src/app.js"></script>
+</body>
+</html>
