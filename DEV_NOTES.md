@@ -22,3 +22,7 @@ Personal development log — notes, findings, and ongoing work.
 - Documented config options
 - Verified compatibility with latest runtime version
 - Improved log message formatting
+
+## 2026-03-23
+- Reorganised test fixtures
+- Consolidated duplicate helper functions
