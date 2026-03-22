@@ -26,3 +26,6 @@ Personal development log — notes, findings, and ongoing work.
 ## 2026-03-23
 - Reorganised test fixtures
 - Consolidated duplicate helper functions
+
+## 2026-03-23
+- Resolved TODO items from previous session
