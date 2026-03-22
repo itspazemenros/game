@@ -14,3 +14,6 @@ Personal development log — notes, findings, and ongoing work.
 ## 2026-03-23
 - Improved log message formatting
 - Fixed off-by-one error in loop
+
+## 2026-03-23
+- Reorganised test fixtures
