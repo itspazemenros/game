@@ -29,3 +29,8 @@ Personal development log — notes, findings, and ongoing work.
 
 ## 2026-03-23
 - Resolved TODO items from previous session
+
+## 2026-03-30
+- Added basic usage examples to README
+- Bumped patch version
+- Fixed off-by-one error in loop
