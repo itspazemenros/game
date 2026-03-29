@@ -34,3 +34,6 @@ Personal development log — notes, findings, and ongoing work.
 - Added basic usage examples to README
 - Bumped patch version
 - Fixed off-by-one error in loop
+
+## 2026-03-30
+- Reorganised test fixtures
